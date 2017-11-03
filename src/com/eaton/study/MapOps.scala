@@ -1,7 +1,7 @@
 package com.eaton.study
 
 /**
-  * Created by yitgeng on 11/2/2017.
+  * Created by eaton on 11/2/2017.
   */
 object MapOps {
     def main(args: Array[String]): Unit = {
@@ -17,6 +17,8 @@ object MapOps {
         for((k,_) <- ages){ //placeholder
             println("Key is " + k)
         }
+
+        println(ages("Java"))
     }
 }
 

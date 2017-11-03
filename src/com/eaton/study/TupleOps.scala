@@ -1,7 +1,7 @@
 package com.eaton.study
 
 /**
-  * Created by yitgeng on 11/2/2017.
+  * Created by eaton on 11/2/2017.
   */
 object TupleOps {
     def main(args: Array[String]): Unit = {

@@ -4,7 +4,7 @@ import scala.io.Source
 import java.io.InputStream
 
 /**
-  * Created by yitgeng on 11/2/2017.
+  * Created by eaton on 11/2/2017.
   */
 object FileOps {
     def main(args: Array[String]): Unit = {

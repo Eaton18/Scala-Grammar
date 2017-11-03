@@ -4,7 +4,7 @@ import java.io.{FileNotFoundException, FileReader, IOException}
 import scala.io.StdIn
 
 /**
-  * Created by yitgeng on 11/1/2017.
+  * Created by eaton on 11/1/2017.
   */
 object BasicGrammar {
 
