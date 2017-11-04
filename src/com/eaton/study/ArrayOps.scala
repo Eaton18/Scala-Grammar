@@ -89,7 +89,7 @@ object ArrayOps {
         }
 
         // Example 8: 二维数组
-        if(true){
+        if(false){
             val matrix = Array.ofDim[Double](3, 4)    // 申请一个3行4列的二维数组
             matrix(2)(1) = 42    // 为二维数组
 
