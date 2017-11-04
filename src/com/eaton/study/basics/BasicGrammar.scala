@@ -1,6 +1,7 @@
-package com.eaton.study
+package com.eaton.study.basics
 
 import java.io.{FileNotFoundException, FileReader, IOException}
+
 import scala.io.StdIn
 
 /**

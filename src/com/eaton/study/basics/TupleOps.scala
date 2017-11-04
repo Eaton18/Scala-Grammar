@@ -1,4 +1,4 @@
-package com.eaton.study
+package com.eaton.study.basics
 
 /**
   * Created by eaton on 11/2/2017.

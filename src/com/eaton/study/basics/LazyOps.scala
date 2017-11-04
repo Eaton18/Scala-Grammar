@@ -1,4 +1,4 @@
-package com.eaton.study
+package com.eaton.study.basics
 
 import scala.io.Source
 

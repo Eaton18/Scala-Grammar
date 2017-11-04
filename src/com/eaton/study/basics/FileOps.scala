@@ -1,7 +1,6 @@
-package com.eaton.study
+package com.eaton.study.basics
 
 import scala.io.Source
-import java.io.InputStream
 
 /**
   * Created by eaton on 11/2/2017.
