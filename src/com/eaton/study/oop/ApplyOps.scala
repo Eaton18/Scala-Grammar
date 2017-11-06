@@ -25,13 +25,19 @@ object ApplyOps {
 
     def main(args: Array[String]): Unit = {
         // 新构建一个对象时，如果不写new某个类，就是用伴生对象object Array的apply()方法来构建的
-        val arr = Array(1,2,3,4,5,6,7,8,9)
+        if(false){
+            val arr = Array(1,2,3,4,5,6,7,8,9)
+        }
 
-        //并没有用new，是因为使用其伴生对象object ApplyTest的apply()方法
-        val a = ApplyTest()
-        a.haveATry
 
-        println(a())    // 调用类class ApplyTest的apply()方法
+        //此处也没有用new，是因为使用其伴生对象object ApplyTest的apply()方法创建对象
+        if(false){
+            val a = ApplyTest()
+            a.haveATry
+
+            println(a())    // 调用类class ApplyTest的apply()方法
+        }
+
     }
 
 }
