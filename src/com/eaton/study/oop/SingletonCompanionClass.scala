@@ -34,7 +34,6 @@ class University {
 }
 
 
-
 object SingletonCompanionClass {
     def main(args: Array[String]): Unit = {
         /* Java中，类里的静态模块当类被加载进来就会被执行
@@ -55,7 +54,7 @@ object SingletonCompanionClass {
 
 
         // apply属于object Array
-        // 新构建一个类时，如果不写new某个类，就是用伴生对象object Array的apply()方法来构建的
+        // 新构建一个对象时，如果不写new某个类，就是用伴生对象object Array的apply()方法来构建的
         if(false){
             val array = Array(1,2,3,4)
             for (elem <- array) print(elem + "\t")

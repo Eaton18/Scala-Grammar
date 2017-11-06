@@ -54,6 +54,8 @@ object ArrayOps {
             for (i <- 0 until a.length)
                 println(i + ": " + a(i))
             println(a.mkString("<", ",", ">"))
+
+            println(Array(1).mkString("<", ",", ">"))
         }
 
         // Example 5: 数组操作
