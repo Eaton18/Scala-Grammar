@@ -3,7 +3,7 @@ package com.eaton.study.basics
 import scala.io.Source
 
 /**
-  * Created by yitgeng on 11/3/2017.
+  * Created by eaton on 11/3/2017.
   */
 object LazyOps {
     def main(args: Array[String]): Unit = {
